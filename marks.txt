@@ -1,0 +1,57 @@
+Final Project Marks
+----------------------------------------
+----------------------------------------
+Clear description of your problem: 5/5
+Approach to your problem: 8/10
+Technical execution: 22/25
+Documentation and testing: 5/5
+Presentation of results: 5/5
+Interpretation of results: 10/10
+Overall communication: 5/5
+
+SUBTOTAL: 60/65
+
+Creativity + critical thinking bonus: 2/10
+
+TOTAL: 62/65
+
+----------------------------------------
+General comments
+----------------------------------------
+
+This is an interesting project, and it was
+well-executed. The writeup was clear and
+understandable, with the intuitive reasoning
+for various analysis choices well-explained.
+
+I would like to suggest two areas for improvement.
+First, the code could've been written in
+a slightly more general way. In particular,
+the parties were hardcoded, making it fairly
+labour intensive to generalized the code if
+(say) a new party becomes relevant in future elections.
+
+The other suggestion is regarding the
+weights you used (e.g., for different years
+and the 50/50 weights for H vs P). You came
+up with some good reasoning for choosing the
+weights that you did. To take this to the next
+level, however, what you can do is to pretend
+that the 2018 election hasn't happened yet, and
+to try to use the historical data to predict
+the 2018 results. Comparing your prediction
+to the results then allows you to calibrate
+your weights appropriately. In other words, you
+can treat this like a two-step regression problem.
+First you use 2018 as "data" to help you figure
+out the best-fit values for the weights in your
+model. Then you fix those weights and throw
+in all the data to help you figure out what will
+happen in 2022.
+
+It was a real pleasure having you in the class
+this term! Best of luck, and I hope you have an
+enjoyable and restful summer!
+
+Best,
+Adrian
